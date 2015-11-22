@@ -7,9 +7,9 @@ The inputs are arranged in the sidebar panel (on the left), and the outputs are 
 
 ## Sidebar Panel
 The sidebar panel contains several components:  
-- A list of parameters of cars. By selecting parameter in the list, users can investigate the coefficients of the linear model between `mpg` and the chosen parameter, as well as making an exploratory plot for `mpg` against the chosen variable;  
-- A slider with a range of values. By choosing the value on the slider, users can define a weight value and predict what the miles per gallon will be;  
-- A submit button. Clicking the button will refresh the main panel with the new inputs specified by users.
+- A **list of parameters** of cars. By selecting parameter in the list, users can investigate the coefficients of the linear model between `mpg` and the chosen parameter, as well as making an exploratory plot for `mpg` against the chosen variable;  
+- A **slider** with a range of values. By choosing the value on the slider, users can define a weight value and predict what the miles per gallon will be;  
+- A **submit button**. Clicking the button will refresh the main panel with the new inputs specified by users.
 
 ## Main Panel
 There are several items displayed on the main panel.  
