@@ -15,7 +15,7 @@ shinyUI(pageWithSidebar(
                      ),
         mainPanel(h2('You selected:'),
                   verbatimTextOutput('list1'),
-                  h2('Coefficients Sumary:'),
+                  h2('Coefficients Summary:'),
                   verbatimTextOutput('text1'),
                   textOutput('text2'),
                   h2('Exploratory Plot:'),
