@@ -11,7 +11,7 @@ shinyServer(
                         else if(input$list1 == "mtcars$gear") summary(lm(mpg ~ factor(gear) - 1, data = mtcars))$coef
                         else if(input$list1 == "mtcars$carb") summary(lm(mpg ~ factor(carb) - 1, data = mtcars))$coef
                         )
-                        output$text2 <- renderText({paste("The predicted output is:", round(lm(mpg ~ wt, data = mtcars)$coef[1] + lm(mpg ~ wt, data = mtcars)$coef[2] * as.numeric(input$slide),2), "mpg. Check out the plot of mpg against weight.", sep = " ")
+                        output$text2 <- renderText({paste("The predicted output is:", round(lm(mpg ~ wt, data = mtcars)$coef[1] + lm(mpg ~ wt, data = mtcars)$coef[2] * as.numeric(input$slide),2), "mpg. Select 'Weight' to check out the plot.", sep = " ")
                             })
                 output$Plot <- renderPlot({
                         if(input$list1 == "mtcars$cyl") boxplot(mpg ~ cyl, mtcars, col = "gray", xlab = "Number of cylinders", ylab = "Miles per gallon")

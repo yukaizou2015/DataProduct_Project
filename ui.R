@@ -1,6 +1,6 @@
 library(shiny)
 shinyUI(pageWithSidebar(
-        headerPanel("Exploring Cars' Performance by Different Characteristics"),
+        headerPanel("Exploring Car Performance by Different Characteristics"),
         sidebarPanel(selectInput("list1", "Select a parameter:",
                                  c("Weight" = "mtcars$wt",
                                    "Number of cylinders" = "mtcars$cyl",
@@ -15,10 +15,10 @@ shinyUI(pageWithSidebar(
                      ),
         mainPanel(h2('You selected:'),
                   verbatimTextOutput('list1'),
-                  h2('Coefficients:'),
+                  h2('Coefficients Sumary:'),
                   verbatimTextOutput('text1'),
                   textOutput('text2'),
-                  h2('Plot:'),
+                  h2('Exploratory Plot:'),
                   plotOutput('Plot'))
 )
 )
