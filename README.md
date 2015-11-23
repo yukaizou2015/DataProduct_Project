@@ -1,5 +1,5 @@
 # Exploring Car Performance by Different Characteristics
-This repository contains the project for the class "Data Product" in Data Science Specialization. The Shiny application was written in R, consisting of [ui.R](https://github.com/yukaizou2015/DataProduct_Project/blob/master/ui.R) and [server.R](https://github.com/yukaizou2015/DataProduct_Project/blob/master/server.R) The application has been published at Shinyapp.io and can be found [here](https://yukaizou2015.shinyapps.io/DataProduct_Project). Don't forget to also check out this [slidify presentation](http://rpubs.com/yukaizou2015/130386).
+This repository contains the project for the class "Data Product" in Data Science Specialization. The Shiny application was written in R, consisting of [ui.R](https://github.com/yukaizou2015/DataProduct_Project/blob/master/ui.R) and [server.R](https://github.com/yukaizou2015/DataProduct_Project/blob/master/server.R) The application has been published at Shinyapp.io and can be found [here](https://yukaizou2015.shinyapps.io/DataProduct_Project). Don't forget to also check out this [slidify presentation](http://rpubs.com/yukaizou2015/130424).
 
 This application is a simple yet brief demonstration of using R to make an interactive product for users to explore certain dataset. `mtcars` dataset in R is used for this application.  
 
